@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Activity - About</title>
+
+<style>
+/* Same CSS as index.html (copy all style from index.html) */
+:root { ... } /* copy everything exactly */
+</style>
+</head>
+
+<body>
+
+<button class="toggle-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+<button class="home-btn" onclick="window.location.href='index.html'">🏠 Home</button>
+
+<header>
+<h1>ACTIVITY🫩</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="games.html">Games</a>
+<a href="projects.html">Projects</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="main-container">
+<section id="about">
+<h2>About Me</h2>
+<p>Gusto ko mag-spend ng free time ko sa paglalaro at pag-relax sa days off ko. Mahilig din ako manood ng anime at horror shows/movies. Bukod doon, enjoy din akong maging active at maglaro ng sports tulad ng badminton at basketball. Mahilig din ako sa Japanese music at anime, at pag-explore ng bagong places para ma-experience ang bagong food at culture. Minsan, nag-eenjoy din ako sa simpleng bonding moments with friends, gaming sessions, o kahit road trips. Mahilig din akong magbasa ng light novels at comics kapag may free time, at minsan nagta-try din ako gumawa ng art o sketches just for fun.</p>
+</section>
+</div>
+
+<script>
+/* Same JS as index.html, except remove showSection() */
+function toggleDarkMode() {
+document.body.classList.toggle("dark");
+}
+</script>
+
+</body>
+</html>
